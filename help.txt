@@ -1,0 +1,7 @@
+dotnet -v
+dotnet new (shows template)
+dotnet new angular
+dotnet run
+
+
+yarn (npm install) insatll all the dependency
