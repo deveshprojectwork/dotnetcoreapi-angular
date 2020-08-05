@@ -3,5 +3,26 @@ dotnet new (shows template)
 dotnet new angular
 dotnet run
 
+linkdin folder - https://www.linkedin.com/learning/building-angular-and-asp-dot-net-core-applications/creating-data-models
+
+
+Ex_Files_Building_Angular_ASP_NET_Core_Apps (main folder)
 
 yarn (npm install) insatll all the dependency
+
+
+https://localhost:5001/api/Books/getBooks
+https://localhost:5001/api/Books/SingleBook/1
+
+
+
+Create Model Books.cs
+Create service, Interface and add model
+Create API end point 
+
+
+Unable to resolve service for type 'dotnetcoreapi.Data.IBookService' 
+while attempting to activate 'dotnetcoreapi.Controllers.BooksController'.
+
+public void ConfigureServices(IServiceCollection services)
+        services.AddTransient<IBookService, BookService>();
